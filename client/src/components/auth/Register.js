@@ -4,7 +4,6 @@ import { withRouter } from "react-router-dom";
 import classnames from "classnames";
 import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
-import { STATUS_CODES } from "http";
 
 class Register extends Component {
   constructor() {
